@@ -16,6 +16,7 @@
 
   &__inner {
     padding: 0 22px;
+    position: relative;
   }
 
   &__content {
@@ -32,38 +33,6 @@
     width: 145px;
     height: 55px;
     object-fit: cover;
-  }
-}
-
-.burger {
-  &__btn {
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    background: #fff;
-    margin-left: auto;
-    position: relative;
-    display: none;
-    cursor: pointer;
-  }
-
-  &__line {
-    position: absolute;
-    right: 9px;
-    border-radius: 12px;
-    background-color: #263B46;
-  }
-
-  &__line--1 {
-    top: 19px;
-    width: 36px;
-    height: 6px;
-  }
-
-  &__line--2 {
-    bottom: 18px;
-    width: 18px;
-    height: 6px;
   }
 }
 
@@ -174,7 +143,7 @@
     font-family: mont, sans-serif;
     font-size: 33px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
     margin-bottom: 30px;
   }
@@ -200,7 +169,7 @@
     font-family: mont, sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 14px;
   }
 }
@@ -319,7 +288,7 @@
     font-family: mont, sans-serif;
     font-size: 75px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 135%;
     letter-spacing: -6px;
 
@@ -338,12 +307,18 @@
       text-align: left;
       height: 580px;
       overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      &:hover{
+        background: #F0F9FE;
+      }
     }
 
     &__content {
       max-width: 555px;
       width: 100%;
-      padding: 60.75px 145px 0 70px;
+      padding: 60px 125px 0 70px;
     }
 
     &__title {
@@ -351,7 +326,7 @@
       font-family: mont, sans-serif;
       font-size: 34px;
       font-style: normal;
-      font-weight: 600;
+      font-weight: 700;
       line-height: 100%;
       margin-bottom: 25px;
     }
@@ -367,7 +342,6 @@
     }
 
     &__img-1 {
-      margin: 76px 0 0 0;
       width: 100%;
       height: auto;
       object-fit: cover;
@@ -375,7 +349,7 @@
 
     &__img-2 {
       display: block;
-      margin: 32px auto 64px;
+      margin: 0 auto 64px;
       max-width: 412px;
       width: 100%;
       height: auto;
@@ -383,18 +357,19 @@
     }
 
     &__img-3 {
-      margin: 36px 0 0 0;
       width: 100%;
       height: auto;
       object-fit: cover;
     }
 
     &__img-4 {
-      margin: 0;
       width: 100%;
       height: auto;
       object-fit: cover;
     }
+  }
+  .hidden{
+    margin: 0 -10px;
   }
 }
 
@@ -405,7 +380,7 @@
   font-family: mont, sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 100%;
   letter-spacing: -1.6px;
   text-transform: lowercase;
@@ -422,7 +397,7 @@
   padding: 169px 0 0 0;
   margin: -89px 0 -75px;
 
-  min-height: 1178px;
+  min-height: 1170px;
 
   &__inner {
     margin: 0 -10px;
@@ -437,7 +412,7 @@
     font-family: mont, sans-serif;
     font-size: 70px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 110%;
     letter-spacing: -3.5px;
   }
@@ -671,7 +646,7 @@
     margin: 0 -10px;
     border-radius: 80px;
     background: #FFF;
-    padding: 0 155px 0 92px;
+    padding: 0 100px;
   }
 
   &__content {
@@ -773,7 +748,7 @@
     font-family: mont, sans-serif;
     font-size: 22px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
   }
 
@@ -868,7 +843,7 @@
     font-family: mont, sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
     letter-spacing: -1.6px;
   }
@@ -925,7 +900,7 @@
     font-family: mont, sans-serif;
     font-size: 35px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
     width: 410px;
     margin: 0 10px 0 40px;
@@ -941,7 +916,7 @@
     font-family: mont, sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
   }
 
@@ -950,7 +925,7 @@
     font-family: mont, sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
   }
 

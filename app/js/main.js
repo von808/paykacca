@@ -50,11 +50,16 @@ $(function initSlider() {
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   spaceBetween: 5,
-  // initialSlide: 1,
-  // centeredSlides: true,
-  // centeredSlidesBounds: true,
   breakpoints: {
     540: {
+      slidesPerView: 1,
+      spaceBetween: 30
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+    1780: {
       slidesPerView: 3,
       spaceBetween: 30
     },
@@ -65,10 +70,7 @@ var swiper = new Swiper(".mySwiper2", {
   slidesPerView: 1,
   spaceBetween: 0,
   loop: true,
-  // initialSlide: 9,
   centeredSlides: true,
-  // centeredSlidesBounds: true,
-  // activeIndex: 1,
   breakpoints: {
     1780: {
       slidesPerView: 4.5,
@@ -92,3 +94,13 @@ var swiper = new Swiper(".mySwiper2", {
     },
   }
 });
+
+const burgerBtn = document.querySelector('#burger-btn');
+const burgerMenu = document.querySelector('#burger-menu');
+const body = document.querySelector('#body');
+
+burgerBtn.onclick = function() {
+  burgerBtn.classList.toggle('active')
+  burgerMenu.classList.toggle('active')
+  body.classList.toggle('active')
+}

@@ -11,12 +11,34 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="body" id="body">
   <div class="wrapper">
+    <div class="burger__menu" id="burger-menu">
+      <a class="logo-link" href="#">
+        <img class="header__logo" src="images/logo.svg" alt="logo">
+      </a>
+      <ul class="nav">
+        <li class="nav__item"><a class="nav__item-link" href="#">о сервисе</a></li>
+        <li class="nav__item"><a class="nav__item-link" href="#">тарифы</a></li>
+        <li class="nav__item"><a class="nav__item-link" href="#">Документация</a></li>
+        <li class="nav__item"><a class="nav__item-link" href="#">Контакты</a></li>
+      </ul>
+      <div class="burger-menu__btns">
+        <a class="login" href="#">Войти</a>
+        <a class="btn btn-blue" href="#">
+          Подлючить магазин
+          <span class="circle-orange">
+            <svg class="plus">
+              <use xlink:href="#plus"></use>
+            </svg>
+          </span>
+        </a>
+      </div>
+    </div>
     <header class="header">
       <div class="container-fluid">
         <div class="header__inner">
-          <div class="burger__btn">
+          <div class="burger__btn" id="burger-btn">
             <span class="burger__line burger__line--1"></span>
             <span class="burger__line burger__line--2"></span>
           </div>

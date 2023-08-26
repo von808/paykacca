@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  position: relative;
 }
 
 .main {
@@ -137,4 +138,106 @@ body {
   background: #3950F8;
 
   margin-bottom: 50.75px;
+}
+
+.burger {
+  &__btn {
+    position: absolute;
+    right: 0;
+    z-index: 25;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #fff;
+    margin-left: auto;
+    // position: relative;
+    display: none;
+    cursor: pointer;
+  }
+
+  &__line {
+    position: absolute;
+    right: 9px;
+    border-radius: 12px;
+    background-color: #263B46;
+    transition: 0.2s;
+  }
+
+  &__line--1 {
+    top: 19px;
+    width: 36px;
+    height: 6px;
+  }
+
+  &__line--2 {
+    bottom: 18px;
+    width: 18px;
+    height: 6px;
+  }
+
+  &__btn.active {
+    border: 1px solid #F2F2F2;
+
+    .burger__line--1 {
+      top: 25px;
+      width: 36px;
+      height: 6px;
+      transform: rotate(45deg);
+    }
+
+    .burger__line--2 {
+      top: 25px;
+      width: 36px;
+      height: 6px;
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+.burger__menu {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  z-index: 5;
+  transition: 0.2s;
+  padding: 60px 40px 40px;
+
+  &.active {
+    right: 0;
+  }
+
+  .logo-link {
+    display: block;
+    margin-bottom: 65px;
+  }
+
+  .nav {
+    margin: 0 0 155px;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .burger-menu__btns {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .login {
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 35px;
+  }
+
+  .btn{
+    height: 45px;
+  }
 }

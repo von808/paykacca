@@ -195,8 +195,27 @@
   }
 
   .pay__inner {
-    margin: 0 -20px;
+    margin: 0 -10px;
     padding: 10px 10px 0;
+  }
+
+  .moderation {
+    min-height: 1140px;
+  }
+
+  .phone-slider-btn {
+    height: 70px;
+    padding: 9px 9px 9px 50px;
+
+    .circle-blue {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .benefits .swiper__item {
+    max-width: 600px;
+    margin: 0 auto;
   }
 }
 
@@ -216,6 +235,14 @@
 
   .header__content {
     display: none;
+  }
+
+  .benefits .swiper__content {
+    padding: 30px 40px 0 35px;
+  }
+
+  .benefits__inner {
+    padding: 80px 50px 87px;
   }
 }
 
@@ -395,6 +422,18 @@
   .conditions__inner {
     padding: 0;
   }
+
+  .benefits .swiper__content {
+    padding: 30px 40px 0 35px;
+  }
+
+  .body.active {
+    overflow: hidden;
+  }
+
+  .burger__menu {
+    width: 100%;
+  }
 }
 
 @media (max-width: 540px) {
@@ -460,7 +499,7 @@
   .btn {
     display: inline-flex;
     height: 45px;
-    padding: 5px 6px 5px 19px;
+    padding: 2.5px 3px 2.5px 19px;
     align-items: center;
     gap: 10px;
     font-size: 14px;
