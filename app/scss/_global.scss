@@ -1,0 +1,140 @@
+body {
+  overflow-x: hidden;
+  min-width: 320px;
+  background: #E9F1F6;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-fluid {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.title {
+  color: #131945;
+  font-family: Mont;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 75px;
+  letter-spacing: -5.6px;
+}
+
+.btn {
+  display: inline-flex;
+  height: 70px;
+  padding: 9px 10px 9px 30px;
+  align-items: center;
+  gap: 15px;
+  flex-shrink: 0;
+
+  color: #FAFAFA;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Mont;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  border-radius: 180px;
+  transition: 0.2s;
+
+  &:hover {
+
+    .circle-blue,
+    .circle-orange {
+      transform: rotate(-90deg);
+    }
+  }
+}
+
+.btn-blue {
+  background: linear-gradient(88deg, #167DF1 0%, #0399FA 100%);
+  transition: 0.2s;
+
+  &:hover {
+    background: linear-gradient(88deg, #1463BC 0%, #2297E2 100%);
+  }
+}
+
+.circle-orange {
+  background: linear-gradient(332deg, #EE6908 0%, #FF9435 100%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  transition: 0.2s;
+}
+
+.btn-orange {
+  background: linear-gradient(88deg, #FF8E2D 0%, #FF8E2D 100%);
+  transition: 0.2s;
+
+  &:hover {
+    background: linear-gradient(95deg, #F48E36 0%, #EE790E 100%);
+  }
+}
+
+.circle-blue {
+  background: linear-gradient(332deg, #0296F1 0%, #086DDB 100%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  transition: 0.2s;
+}
+
+.plus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25px;
+  height: 25px;
+  fill: #FFF;
+}
+
+.swiper__numb {
+  color: #FFF;
+  text-align: center;
+  font-family: Mont;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -1.6px;
+  text-transform: uppercase;
+
+  width: 50px;
+  height: 46.5px;
+  padding-right: 4px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3950F8;
+
+  margin-bottom: 50.75px;
+}
