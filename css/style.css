@@ -1,19 +1,19 @@
 @font-face {
-  font-family: Mont;
+  font-family: mont;
   src: url(../fonts/Mont-Regular.woff2), url(../fonts/Mont-Regular.woff);
   font-weight: 400;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
-  font-family: Mont;
+  font-family: mont;
   src: url(../fonts/Mont-semiBold.woff2), url(../fonts/Mont-semiBold.woff);
   font-weight: 600;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
-  font-family: Mont;
+  font-family: mont;
   src: url(../fonts/Mont-Bold.woff2), url(../fonts/Mont-Bold.woff);
   font-weight: 700;
   font-display: swap;
@@ -126,7 +126,7 @@ body {
 
 .title {
   color: #131945;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 70px;
   font-style: normal;
   font-weight: 600;
@@ -145,7 +145,7 @@ body {
   text-align: center;
   leading-trim: both;
   text-edge: cap;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -205,7 +205,7 @@ body {
 .swiper__numb {
   color: #FFF;
   text-align: center;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -295,7 +295,7 @@ body {
   text-align: center;
   leading-trim: both;
   text-edge: cap;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -329,7 +329,7 @@ body {
   text-align: center;
   leading-trim: both;
   text-edge: cap;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -398,7 +398,7 @@ body {
 }
 .footer__title {
   color: #FFF;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 33px;
   font-style: normal;
   font-weight: 600;
@@ -426,7 +426,7 @@ body {
   background: #FFF;
   padding: 28px 25px;
   color: #7C7F95;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -435,7 +435,7 @@ body {
 
 .slogan {
   color: #7C7F95;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -458,7 +458,7 @@ body {
 
 .socials-link {
   color: #167CF0;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -498,7 +498,7 @@ body {
 .hero__title {
   color: #FFF;
   text-align: center;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -521,7 +521,7 @@ body {
 .hero__subtitle {
   color: #FFF;
   text-align: center;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -546,7 +546,7 @@ body {
 .benefits__title {
   color: #131945;
   text-align: center;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 600;
@@ -572,7 +572,7 @@ body {
 }
 .benefits .swiper__title {
   color: #131945;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 34px;
   font-style: normal;
   font-weight: 600;
@@ -581,7 +581,7 @@ body {
 }
 .benefits .swiper__text {
   color: #7C7F95;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -622,7 +622,7 @@ body {
 .subtitle {
   color: #43A3FE;
   text-align: center;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -648,7 +648,7 @@ body {
 .moderation__title {
   color: #FFF;
   text-align: center;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 70px;
   font-style: normal;
   font-weight: 600;
@@ -658,7 +658,7 @@ body {
 .moderation__text {
   color: #FFF;
   text-align: center;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -732,7 +732,7 @@ body {
   color: #7C7F95;
   leading-trim: both;
   text-edge: cap;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -740,7 +740,7 @@ body {
 }
 .moderation .swiper__title {
   color: #7C7F95;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -811,7 +811,7 @@ body {
 }
 .moderation__clue-text {
   color: #FFF;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -900,7 +900,7 @@ body {
 }
 .connect__text {
   color: #7C7F95;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -992,7 +992,7 @@ body {
   text-align: center;
   leading-trim: both;
   text-edge: cap;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
@@ -1080,7 +1080,7 @@ body {
 .pay__slider-pagination {
   color: #93D8FA;
   text-align: center;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -1138,7 +1138,7 @@ body {
 }
 .conditions__item-title {
   color: #131945;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 35px;
   font-style: normal;
   font-weight: 600;
@@ -1157,7 +1157,7 @@ body {
 }
 .conditions__column-title {
   color: #7C7F95;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -1165,7 +1165,7 @@ body {
 }
 .conditions__column-name {
   color: #131945;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
