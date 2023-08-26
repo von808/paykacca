@@ -77,7 +77,7 @@
     text-align: center;
     leading-trim: both;
     text-edge: cap;
-    font-family: Mont;
+    font-family: mont, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -107,7 +107,7 @@
   text-align: center;
   leading-trim: both;
   text-edge: cap;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -171,7 +171,7 @@
 
   &__title {
     color: #FFF;
-    font-family: Mont;
+    font-family: mont, sans-serif;
     font-size: 33px;
     font-style: normal;
     font-weight: 600;
@@ -197,7 +197,7 @@
     padding: 28px 25px;
 
     color: #7C7F95;
-    font-family: Mont;
+    font-family: mont, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -207,7 +207,7 @@
 
 .slogan {
   color: #7C7F95;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -225,7 +225,7 @@
 
 .socials-link {
   color: #167CF0;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -261,7 +261,7 @@
   &__title {
     color: #FFF;
     text-align: center;
-    font-family: Mont;
+    font-family: mont, sans-serif;
     font-size: 75px;
     font-style: normal;
     font-weight: 700;
@@ -287,7 +287,7 @@
   &__subtitle {
     color: #FFF;
     text-align: center;
-    font-family: Mont;
+    font-family: mont, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -316,7 +316,7 @@
   &__title {
     color: #131945;
     text-align: center;
-    font-family: Mont;
+    font-family: mont, sans-serif;
     font-size: 75px;
     font-style: normal;
     font-weight: 600;
@@ -348,7 +348,7 @@
 
     &__title {
       color: #131945;
-      font-family: Mont;
+      font-family: mont, sans-serif;
       font-size: 34px;
       font-style: normal;
       font-weight: 600;
@@ -358,7 +358,7 @@
 
     &__text {
       color: #7C7F95;
-      font-family: Mont;
+      font-family: mont, sans-serif;
       font-size: 20px;
       font-style: normal;
       font-weight: 400;
@@ -402,7 +402,7 @@
 .subtitle {
   color: #43A3FE;
   text-align: center;
-  font-family: Mont;
+  font-family: mont, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -434,7 +434,7 @@
   &__title {
     color: #FFF;
     text-align: center;
-    font-family: Mont;
+    font-family: mont, sans-serif;
     font-size: 70px;
     font-style: normal;
     font-weight: 600;
@@ -445,7 +445,7 @@
   &__text {
     color: #FFF;
     text-align: center;
-    font-family: Mont;
+    font-family: mont, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -519,7 +519,7 @@
       color: #7C7F95;
       leading-trim: both;
       text-edge: cap;
-      font-family: Mont;
+      font-family: mont, sans-serif;
       font-size: 18px;
       font-style: normal;
       font-weight: 400;
@@ -528,7 +528,7 @@
 
     &__title {
       color: #7C7F95;
-      font-family: Mont;
+      font-family: mont, sans-serif;
       font-size: 22px;
       font-style: normal;
       font-weight: 400;
@@ -607,7 +607,7 @@
 
   &__clue-text {
     color: #FFF;
-    font-family: Mont;
+    font-family: mont, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -696,7 +696,7 @@
 
   &__text {
     color: #7C7F95;
-    font-family: Mont;
+    font-family: mont, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -770,7 +770,7 @@
     text-align: center;
     leading-trim: both;
     text-edge: cap;
-    font-family: Mont;
+    font-family: mont, sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
@@ -854,8 +854,6 @@
     transform: translate(-50%, -50%) rotate(180deg);
   }
 
-  .arrow-down {}
-
   &__slider-paginations.slick-slider {
     position: absolute;
     top: calc(50% + 15px);
@@ -867,7 +865,7 @@
   &__slider-pagination {
     color: #93D8FA;
     text-align: center;
-    font-family: Mont;
+    font-family: mont, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -924,7 +922,7 @@
 
   &__item-title {
     color: #131945;
-    font-family: Mont;
+    font-family: mont, sans-serif;
     font-size: 35px;
     font-style: normal;
     font-weight: 600;
@@ -940,7 +938,7 @@
 
   &__column-title {
     color: #7C7F95;
-    font-family: Mont;
+    font-family: mont, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -949,7 +947,7 @@
 
   &__column-name {
     color: #131945;
-    font-family: Mont;
+    font-family: mont, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
