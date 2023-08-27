@@ -92,8 +92,9 @@ function building() {
     'app/css/style.css',
     'app/images/*.*',
     'app/fonts/*.*',
-    'app/js/main.min.js',
-    'app/pages/*.html',
+    'app/js/main.js',
+    '!app/pages/*.html',
+    'app/libs/**/*.*',
     'app/*.html'
   ], { base: 'app' })
     .pipe(dest('dist'))
