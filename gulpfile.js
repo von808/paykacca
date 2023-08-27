@@ -91,6 +91,8 @@ function building() {
   return src([
     'app/css/style.css',
     'app/images/*.*',
+    '!app/images/*.avif',
+    '!app/images/*.webp',
     'app/fonts/*.*',
     'app/js/main.js',
     '!app/pages/*.html',

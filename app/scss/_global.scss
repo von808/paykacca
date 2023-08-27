@@ -1,6 +1,4 @@
-html{
-  
-}
+html {}
 
 body {
   min-width: 320px;
@@ -211,7 +209,7 @@ body {
   padding: 60px 40px 40px;
 
   &.active {
-   display: block;
+    display: block;
   }
 
   .logo-link {
@@ -245,4 +243,8 @@ body {
   .btn {
     height: 45px;
   }
+}
+
+.mySwiper2 {
+  overflow: visible;
 }
