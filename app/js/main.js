@@ -6,7 +6,6 @@ $(function initSlider() {
     slidesToScroll: 1,
     vertical: true,
     verticalSwiping: true,
-    fade: true,
     pagination: false,
     prevArrow: '<span class="circle-orange arrow-prev"><svg class="arrow arrow-up"><use xlink: href="#arrow"></use></svg></span >',
     nextArrow: '<span class="circle-orange arrow-next"><svg class="arrow arrow-down"><use xlink: href="#arrow"></use></svg></span >',
