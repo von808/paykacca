@@ -5,7 +5,8 @@ $(function initSlider() {
     slidesToShow: 1,
     slidesToScroll: 1,
     vertical: true,
-    verticalSwiping: true,
+    verticalSwiping: true, 
+    fade: true,
     pagination: false,
     prevArrow: '<span class="circle-orange arrow-prev"><svg class="arrow arrow-up"><use xlink: href="#arrow"></use></svg></span >',
     nextArrow: '<span class="circle-orange arrow-next"><svg class="arrow arrow-down"><use xlink: href="#arrow"></use></svg></span >',
@@ -104,3 +105,33 @@ burgerBtn.onclick = function() {
   burgerMenu.classList.toggle('active')
   body.classList.toggle('active')
 }
+
+
+let heroText = document.querySelector('.hero__text');
+let heroPhone = document.querySelector('.hero__phone');
+let heroLine = document.querySelector('.hero__line');
+let heroPrice1 = document.querySelector('.hero__price-1');
+let heroPrice2 = document.querySelector('.hero__price-2');
+let heroCard = document.querySelector('.hero__card');
+let heroQr = document.querySelector('.hero__qr');
+let heroCurrency = document.querySelector('.hero__currency');
+
+window.addEventListener('scroll', () => {
+  let value = window.scrollY;
+
+  heroText.style.top = value * 1.1 + 'px';
+  heroText.style.opacity = 1 + value * -0.0005;
+  heroPhone.style.bottom = value * -0.6 + 'px';
+  heroLine.style.bottom = value * -0.6 + 'px';
+  heroLine.style.opacity = 1 + value * -0.0008;
+  heroPrice1.style.top = 667 + value * 0.75 + 'px';
+  heroPrice1.style.opacity = 1 + value * -0.0008;
+  heroPrice2.style.top = 388 + value * 0.75 + 'px';
+  heroPrice2.style.opacity = 1 + value * -0.0008;
+  heroCard.style.top =  590 + value * 1.17 + 'px';
+  heroCard.style.scale =  1 + value * 0.00015;
+  heroQr.style.top =  771 + value * 0.9 + 'px';
+  heroQr.style.rotate = value * 0.02 + 'deg';
+  heroQr.style.scale =  1 + value * -0.0002;
+  heroCurrency.style.top =  498 + value * 0.5 + 'px';
+});

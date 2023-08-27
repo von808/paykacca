@@ -7,10 +7,11 @@
 
 
 .header {
-  position: absolute;
+  position: sticky;
   top: 0;
   width: 100%;
   padding: 20px 0;
+  margin: -125px 0 125px;
   z-index: 5;
   height: 132px;
 
@@ -223,9 +224,199 @@
   background-size: cover;
   background-position: center;
   padding: 132px 0 124px;
-  margin: 0 0 -124px;
+  margin: -132px 0 -124px;
+  overflow: hidden;
 
-  &__inner {}
+  &__inner {
+    position: relative;
+  }
+
+  &__content {
+    position: relative;
+    height: 100%;
+    min-height: 1100px;
+  }
+
+  &__text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 1;
+    z-index: 2;
+  }
+
+  &__phone {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    margin-bottom: -328px;
+    z-index: 3;
+    pointer-events: none;
+  }
+
+  &__line {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    margin-bottom: 133px;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  &__price-1 {
+    position: absolute;
+    top: 667px;
+    left: 25%;
+    transform: translateX(-50%);
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  &__price-2 {
+    position: absolute;
+    top: 388px;
+    right: 9%;
+    transform: translateX(-50%);
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  &__card {
+    position: absolute;
+    top: 590px;
+    left: 66%;
+    transform: translateX(-50%);
+    z-index: 4;
+    pointer-events: none;
+  }
+
+  &__qr {
+    position: absolute;
+    top: 771px;
+    left: 36%;
+    transform: translateX(-50%);
+    transform-origin: top left;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  &__line-price {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    pointer-events: none;
+  }
+
+  &__phone-mb {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -328px;
+    z-index: 3;
+    pointer-events: none;
+  }
+
+  &__currency {
+    position: absolute;
+    top: 498px;
+    left: 75px;
+    max-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 9px;
+
+    color: #FFF;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: mont;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.76px;
+    text-transform: uppercase;
+
+    .rub {
+      background-color: #FF7800;
+    }
+
+    .uah {
+      color: #00A0FD;
+      background-color: #fff;
+    }
+
+    .kzt {
+      background-color: #000;
+    }
+  }
+
+  &__currency-item {
+    padding: 7px 22px;
+    border-radius: 30px;
+    height: 45px;
+    width: 90px;
+  }
+
+  &__currency-text {
+    color: #FFF;
+    font-family: mont;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.44px;
+    margin-top: 12px;
+    text-align: left;
+  }
+
+  &__clue {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    display: flex;
+    gap: 10px;
+
+    img {
+      width: 22px;
+      height: 35px;
+    }
+
+    span {
+      color: #FFF;
+      font-family: mont;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 90%;
+      width: 65px;
+    }
+  }
+
+  &__stars {
+    position: absolute;
+    left: 70px;
+    bottom: 70px;
+  }
+
+
+
+
+
+
+
+
+
+
+
 
   &__title {
     color: #FFF;
@@ -239,7 +430,8 @@
     text-transform: uppercase;
 
     max-width: 1348px;
-    margin: 0 auto 15px;
+    margin: 0 auto;
+    padding: 80px 0 15px;
 
     span {
       background-image: url(../images/hero-title-dec.png);
@@ -269,7 +461,7 @@
 
 .benefits {
   position: relative;
-  z-index: 1;
+  z-index: 5;
 
   &__inner {
     margin: 0 -10px;
@@ -310,7 +502,8 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      &:hover{
+
+      &:hover {
         background: #F0F9FE;
       }
     }
@@ -368,7 +561,8 @@
       object-fit: cover;
     }
   }
-  .hidden{
+
+  .hidden {
     margin: 0 -10px;
   }
 }
