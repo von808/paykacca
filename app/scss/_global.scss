@@ -1,7 +1,11 @@
+html{
+  
+}
+
 body {
-  overflow-x: hidden;
   min-width: 320px;
   background: #E9F1F6;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -195,6 +199,7 @@ body {
 }
 
 .burger__menu {
+  display: none;
   position: absolute;
   top: 0;
   right: -100%;

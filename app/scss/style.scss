@@ -234,7 +234,7 @@
   &__content {
     position: relative;
     height: 100%;
-    min-height: 1100px;
+    min-height: 947px;
   }
 
   &__text {
@@ -263,14 +263,14 @@
     left: 50%;
     transform: translateX(-50%);
     width: fit-content;
-    margin-bottom: 133px;
+    margin-bottom: 120px;
     z-index: 1;
     pointer-events: none;
   }
 
   &__price-1 {
     position: absolute;
-    top: 667px;
+    top: 529px;
     left: 25%;
     transform: translateX(-50%);
     z-index: 2;
@@ -279,7 +279,7 @@
 
   &__price-2 {
     position: absolute;
-    top: 388px;
+    top: 247px;
     right: 9%;
     transform: translateX(-50%);
     z-index: 2;
@@ -288,7 +288,7 @@
 
   &__card {
     position: absolute;
-    top: 590px;
+    top: 432px;
     left: 66%;
     transform: translateX(-50%);
     z-index: 4;
@@ -297,7 +297,7 @@
 
   &__qr {
     position: absolute;
-    top: 771px;
+    top: 638px;
     left: 36%;
     transform: translateX(-50%);
     transform-origin: top left;
@@ -326,7 +326,7 @@
 
   &__currency {
     position: absolute;
-    top: 498px;
+    top: 365px;
     left: 75px;
     max-width: 200px;
     display: flex;
@@ -431,7 +431,7 @@
 
     max-width: 1348px;
     margin: 0 auto;
-    padding: 80px 0 15px;
+    padding: 60px 0 15px;
 
     span {
       background-image: url(../images/hero-title-dec.png);
@@ -1028,7 +1028,7 @@
     top: calc(50% + 15px);
     left: 60px;
     transform: translateY(-50%);
-    width: 106px;
+    width: 112px;
   }
 
   &__slider-pagination {

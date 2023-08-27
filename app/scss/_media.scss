@@ -116,6 +116,8 @@
     letter-spacing: -1px;
   }
 
+  .pay__slider-pagination {}
+
   .pay__slider-pagination:not(:last-child) {
     margin-bottom: 0px;
   }
@@ -243,6 +245,69 @@
   }
 }
 
+@media (max-width:1600px) {
+  .header {
+    padding: 10px 0;
+    margin: -125px 0 101px;
+    height: 101px;
+  }
+
+  .hero {
+    padding: 217px 0 121px;
+    margin: -193px 0 -121px;
+  }
+
+  .hero__content {
+    min-height: 800px;
+  }
+
+  .hero__phone {
+    margin-bottom: -385px;
+  }
+
+  .hero__currency {
+    top: 280px;
+  }
+
+  .hero__line-price {
+    top: 40%;
+  }
+
+  .hero__card {
+    top: 345px;
+  }
+
+  .hero__qr {
+    top: 550px;
+  }
+}
+
+@media (max-width:1366px) {
+  .burger__btn {
+    display: block;
+  }
+
+  .header__content {
+    display: none;
+  }
+  .header {
+    padding: 10px 0 0;
+    height: 0;
+  }
+  
+  .hero__content {
+    min-height: 758px;
+  }
+  
+  .hero__title {
+    padding: 0;
+  }
+  
+  .hero__phone {
+    margin-bottom: -400px;
+  }
+}
+
 @media (max-width:1300px) {
   .header {
     padding: 0;
@@ -255,13 +320,6 @@
     padding: 10px;
   }
 
-  .burger__btn {
-    display: block;
-  }
-
-  .header__content {
-    display: none;
-  }
 
   .benefits .swiper__content {
     padding: 30px 40px 0 35px;
@@ -281,7 +339,7 @@
   }
 
   .hero__card {
-    top: 590px;
+    top: 345px;
     left: 80%;
     transform: translateX(-50%) rotate(-15deg);
   }

@@ -93,9 +93,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  overflow-x: hidden;
   min-width: 320px;
   background: #E9F1F6;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -270,6 +270,7 @@ body {
 }
 
 .burger__menu {
+  display: none;
   position: absolute;
   top: 0;
   right: -100%;
@@ -565,7 +566,7 @@ body {
 .hero__content {
   position: relative;
   height: 100%;
-  min-height: 1100px;
+  min-height: 947px;
 }
 .hero__text {
   position: absolute;
@@ -599,13 +600,13 @@ body {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin-bottom: 133px;
+  margin-bottom: 120px;
   z-index: 1;
   pointer-events: none;
 }
 .hero__price-1 {
   position: absolute;
-  top: 667px;
+  top: 529px;
   left: 25%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -615,7 +616,7 @@ body {
 }
 .hero__price-2 {
   position: absolute;
-  top: 388px;
+  top: 247px;
   right: 9%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -625,7 +626,7 @@ body {
 }
 .hero__card {
   position: absolute;
-  top: 590px;
+  top: 432px;
   left: 66%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -635,7 +636,7 @@ body {
 }
 .hero__qr {
   position: absolute;
-  top: 771px;
+  top: 638px;
   left: 36%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -667,7 +668,7 @@ body {
 }
 .hero__currency {
   position: absolute;
-  top: 498px;
+  top: 365px;
   left: 75px;
   max-width: 200px;
   display: -webkit-box;
@@ -754,7 +755,7 @@ body {
   text-transform: uppercase;
   max-width: 1348px;
   margin: 0 auto;
-  padding: 80px 0 15px;
+  padding: 60px 0 15px;
 }
 .hero__title span {
   background-image: url(../images/hero-title-dec.png);
@@ -1336,7 +1337,7 @@ body {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  width: 106px;
+  width: 112px;
 }
 .pay__slider-pagination {
   color: #93D8FA;
@@ -1648,6 +1649,56 @@ body {
     margin: 0 auto;
   }
 }
+@media (max-width: 1600px) {
+  .header {
+    padding: 10px 0;
+    margin: -125px 0 101px;
+    height: 101px;
+  }
+  .hero {
+    padding: 217px 0 121px;
+    margin: -193px 0 -121px;
+  }
+  .hero__content {
+    min-height: 800px;
+  }
+  .hero__phone {
+    margin-bottom: -385px;
+  }
+  .hero__currency {
+    top: 280px;
+  }
+  .hero__line-price {
+    top: 40%;
+  }
+  .hero__card {
+    top: 345px;
+  }
+  .hero__qr {
+    top: 550px;
+  }
+}
+@media (max-width: 1366px) {
+  .burger__btn {
+    display: block;
+  }
+  .header__content {
+    display: none;
+  }
+  .header {
+    padding: 10px 0 0;
+    height: 0;
+  }
+  .hero__content {
+    min-height: 758px;
+  }
+  .hero__title {
+    padding: 0;
+  }
+  .hero__phone {
+    margin-bottom: -400px;
+  }
+}
 @media (max-width: 1300px) {
   .header {
     padding: 0;
@@ -1657,12 +1708,6 @@ body {
   .header__inner {
     height: 56px;
     padding: 10px;
-  }
-  .burger__btn {
-    display: block;
-  }
-  .header__content {
-    display: none;
   }
   .benefits .swiper__content {
     padding: 30px 40px 0 35px;
@@ -1678,7 +1723,7 @@ body {
     display: none;
   }
   .hero__card {
-    top: 590px;
+    top: 345px;
     left: 80%;
     transform: translateX(-50%) rotate(-15deg);
   }

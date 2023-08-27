@@ -5,7 +5,7 @@ $(function initSlider() {
     slidesToShow: 1,
     slidesToScroll: 1,
     vertical: true,
-    verticalSwiping: true, 
+    verticalSwiping: true,
     fade: true,
     pagination: false,
     prevArrow: '<span class="circle-orange arrow-prev"><svg class="arrow arrow-up"><use xlink: href="#arrow"></use></svg></span >',
@@ -100,7 +100,7 @@ const burgerBtn = document.querySelector('#burger-btn');
 const burgerMenu = document.querySelector('#burger-menu');
 const body = document.querySelector('#body');
 
-burgerBtn.onclick = function() {
+burgerBtn.onclick = function () {
   burgerBtn.classList.toggle('active')
   burgerMenu.classList.toggle('active')
   body.classList.toggle('active')
@@ -124,14 +124,37 @@ window.addEventListener('scroll', () => {
   heroPhone.style.bottom = value * -0.6 + 'px';
   heroLine.style.bottom = value * -0.6 + 'px';
   heroLine.style.opacity = 1 + value * -0.0008;
-  heroPrice1.style.top = 667 + value * 0.75 + 'px';
+  heroPrice1.style.top = 529 + value * 0.75 + 'px';
   heroPrice1.style.opacity = 1 + value * -0.0008;
-  heroPrice2.style.top = 388 + value * 0.75 + 'px';
+  heroPrice2.style.top = 247 + value * 0.75 + 'px';
   heroPrice2.style.opacity = 1 + value * -0.0008;
-  heroCard.style.top =  590 + value * 1.17 + 'px';
-  heroCard.style.scale =  1 + value * 0.00015;
-  heroQr.style.top =  771 + value * 0.9 + 'px';
+  heroCard.style.top = 432 + value * 1.17 + 'px';
+  heroCard.style.scale = 1 + value * 0.00015;
+  heroQr.style.top = 638 + value * 0.9 + 'px';
   heroQr.style.rotate = value * 0.02 + 'deg';
-  heroQr.style.scale =  1 + value * -0.0002;
-  heroCurrency.style.top =  498 + value * 0.5 + 'px';
+  heroQr.style.scale = 1 + value * -0.0002;
+  heroCurrency.style.top = 365 + value * 0.5 + 'px';
+  
+  if (window.innerHeight <= 1600) {
+    heroCurrency.style.top = 280 + value * 0.5 + 'px';
+    heroCard.style.top = 345 + value * 1.17 + 'px';
+    heroQr.style.top = 550 + value * 0.9 + 'px';
+  } else {
+    //не выполнять
+  }
+  
+  if (window.innerWidth <= 768) {
+    heroCard.style.top = 410 + value * 1.17 + 'px';
+    heroQr.style.top = 379 + value * 0.9 + 'px';
+  } else {
+    //не выполнять
+  }
+  
+  if (window.innerWidth <= 540) {
+    heroCard.style.top = 427 + value * 1.17 + 'px';
+    heroQr.style.top = 388 + value * 0.9 + 'px';
+  } else {
+    //не выполнять
+  }
 });
+
