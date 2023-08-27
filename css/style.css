@@ -270,7 +270,6 @@ body {
 }
 
 .burger__menu {
-  display: none;
   position: absolute;
   top: 0;
   right: -100%;
@@ -410,7 +409,7 @@ body {
 
 .footer {
   height: 270px;
-  z-index: 5;
+  z-index: 4;
 }
 .footer__inner {
   margin: 0 -10px;
@@ -781,7 +780,7 @@ body {
 
 .benefits {
   position: relative;
-  z-index: 5;
+  z-index: 4;
 }
 .benefits__inner {
   margin: 0 -10px;
@@ -1121,7 +1120,7 @@ body {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  z-index: 5;
+  z-index: 4;
   max-width: 355px;
   width: 100%;
   -webkit-box-pack: justify;
@@ -1132,7 +1131,7 @@ body {
 
 .connect {
   position: relative;
-  z-index: 5;
+  z-index: 4;
 }
 .connect__inner {
   margin: 0 -10px;
