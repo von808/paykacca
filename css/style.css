@@ -312,6 +312,10 @@ body {
   height: 45px;
 }
 
+.mySwiper2 {
+  overflow: visible;
+}
+
 .header {
   position: sticky;
   top: 0;
