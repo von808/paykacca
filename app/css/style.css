@@ -1382,7 +1382,7 @@ body {
 }
 .conditions__item {
   width: 100%;
-  min-height: 200px;
+  height: 200px;
   border-radius: 20px;
   background: #FFF;
   padding: 55px 75px;
@@ -1409,7 +1409,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  width: 410px;
+  width: 415px;
   margin: 0 10px 0 40px;
 }
 .conditions__column {
@@ -1456,6 +1456,10 @@ body {
 }
 
 @media (max-width: 1900px) {
+  .conditions__item {
+    min-height: 200px;
+    height: 100%;
+  }
   .conditions__item-line {
     margin: -55px 35px 0;
   }
@@ -1594,6 +1598,8 @@ body {
     gap: 10px;
     min-width: 330px;
     padding: 30px 35px;
+    min-height: 200px;
+    height: auto;
   }
   .conditions__item-line {
     display: none;

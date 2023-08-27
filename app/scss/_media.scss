@@ -1,4 +1,9 @@
 @media (max-width:1900px) {
+
+  .conditions__item{
+    min-height: 200px;
+    height: 100%;
+  }
   .conditions__item-line {
     margin: -55px 35px 0;
   }
@@ -169,6 +174,8 @@
     gap: 10px;
     min-width: 330px;
     padding: 30px 35px;
+    min-height: 200px;
+    height: auto;
   }
 
   .conditions__item-line {
@@ -290,19 +297,20 @@
   .header__content {
     display: none;
   }
+
   .header {
     padding: 10px 0 0;
     height: 0;
   }
-  
+
   .hero__content {
     min-height: 758px;
   }
-  
+
   .hero__title {
     padding: 0;
   }
-  
+
   .hero__phone {
     margin-bottom: -400px;
   }
