@@ -94,7 +94,7 @@
 
 .footer {
   height: 270px;
-  z-index: 5;
+  z-index: 4;
 
   &__inner {
     margin: 0 -10px;
@@ -461,7 +461,7 @@
 
 .benefits {
   position: relative;
-  z-index: 5;
+  z-index: 4;
 
   &__inner {
     margin: 0 -10px;
@@ -824,7 +824,7 @@
     top: 145%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 5;
+    z-index: 4;
     max-width: 355px;
     width: 100%;
     justify-content: space-between;
@@ -834,7 +834,7 @@
 
 .connect {
   position: relative;
-  z-index: 5;
+  z-index: 4;
 
   &__inner {
     margin: 0 -10px;
