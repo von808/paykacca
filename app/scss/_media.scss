@@ -1,9 +1,10 @@
 @media (max-width:1900px) {
 
-  .conditions__item{
+  .conditions__item {
     min-height: 200px;
     height: 100%;
   }
+
   .conditions__item-line {
     margin: -55px 35px 0;
   }
@@ -112,7 +113,7 @@
 
   .pay__slider-paginations.slick-slider {
     top: unset;
-    bottom: 40px;
+    bottom: -69px;
     left: 50%;
     transform: translate(-50%, 0);
   }
@@ -194,6 +195,12 @@
 
   .swiper__numb {
     margin-bottom: 25px;
+    border-radius: 10px;
+  }
+
+  .conditions .swiper__numb {
+    margin-bottom: 15px;
+    border-radius: 10px;
   }
 
   .conditions__item-title {
@@ -246,8 +253,14 @@
     }
   }
 
+  .benefits__inner {
+    padding: 80px 50px 87px;
+  }
+
   .benefits .swiper__item {
-    max-width: 600px;
+    max-width: 500px;
+    min-height: 550px;
+    height: auto;
     margin: 0 auto;
   }
 }
@@ -599,6 +612,10 @@
   .burger__menu {
     width: 100%;
   }
+
+  .pay__slider-paginations.slick-slider {
+    bottom: -80px;
+  }
 }
 
 @media (max-width: 540px) {
@@ -613,7 +630,6 @@
   .hero__subtitle {
     font-size: 14px;
     font-style: normal;
-    font-weight: 600;
     line-height: 130%;
     max-width: 250px;
   }
@@ -725,7 +741,7 @@
 
   .benefits .swiper__item {
     border-radius: 15px;
-    height: 290px;
+    min-height: 340px;
   }
 
   .benefits .swiper__content {
@@ -904,14 +920,26 @@
   .footer__form-input {
     width: 280px;
     height: 60px;
+    font-size: 14px;
   }
 
   .footer__form-btn {
     width: 280px;
     height: 60px;
+    font-size: 19px;
+    padding: 2.5px 3px 2.5px 20px;
+    font-weight: 400;
   }
 
   .pay__inner {
     padding: 10px 0 0;
+  }
+
+  .conditions__column-name {
+    font-weight: 60;
+  }
+
+  .pay__slider-paginations.slick-slider {
+    bottom: -88px;
   }
 }
