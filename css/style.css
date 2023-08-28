@@ -312,10 +312,6 @@ body {
   height: 45px;
 }
 
-.mySwiper2 {
-  overflow: visible;
-}
-
 .header {
   position: sticky;
   top: 0;
@@ -469,7 +465,7 @@ body {
   font-family: mont, sans-serif;
   font-size: 33px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: normal;
   margin-bottom: 30px;
 }
@@ -497,8 +493,11 @@ body {
   font-family: mont, sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 14px;
+}
+.footer__form-btn {
+  font-weight: 600;
 }
 
 .slogan {
@@ -549,8 +548,8 @@ body {
 .socials-img {
   width: 31px;
   height: 31px;
-  -o-object-fit: cover;
-  object-fit: cover;
+  -o-object-fit: contain;
+  object-fit: contain;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
@@ -802,7 +801,7 @@ body {
   font-family: mont, sans-serif;
   font-size: 75px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 135%;
   letter-spacing: -6px;
   margin: 0 auto 30px;
@@ -891,7 +890,7 @@ body {
   font-family: mont, sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 100%;
   letter-spacing: -1.6px;
   text-transform: lowercase;
@@ -917,7 +916,7 @@ body {
   font-family: mont, sans-serif;
   font-size: 70px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 110%;
   letter-spacing: -3.5px;
 }
@@ -1189,7 +1188,7 @@ body {
   width: calc(50% - 10px);
   border-radius: 80px;
   background: #FFF;
-  padding: 262px 100px 80px;
+  padding: 262px 130px 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1261,7 +1260,7 @@ body {
   font-family: mont, sans-serif;
   font-size: 22px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: normal;
 }
 .pay__pays {
@@ -1343,13 +1342,17 @@ body {
   transform: translateY(-50%);
   width: 112px;
 }
+.pay__slider-paginations .slick-list.draggable {
+  height: 260px !important;
+  padding: 95px 0 0 0px !important;
+}
 .pay__slider-pagination {
   color: #93D8FA;
   text-align: center;
   font-family: mont, sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: normal;
   letter-spacing: -1.6px;
 }
@@ -1548,7 +1551,7 @@ body {
   }
   .pay__slider-paginations.slick-slider {
     top: unset;
-    bottom: 40px;
+    bottom: -69px;
     left: 50%;
     transform: translate(-50%, 0);
   }
@@ -1614,6 +1617,11 @@ body {
   }
   .swiper__numb {
     margin-bottom: 25px;
+    border-radius: 10px;
+  }
+  .conditions .swiper__numb {
+    margin-bottom: 15px;
+    border-radius: 10px;
   }
   .conditions__item-title {
     margin: 0 0 10px 0;
@@ -1654,8 +1662,13 @@ body {
     width: 50px;
     height: 50px;
   }
+  .benefits__inner {
+    padding: 80px 50px 87px;
+  }
   .benefits .swiper__item {
-    max-width: 600px;
+    max-width: 500px;
+    min-height: 550px;
+    height: auto;
     margin: 0 auto;
   }
 }
@@ -1934,6 +1947,9 @@ body {
   .burger__menu {
     width: 100%;
   }
+  .pay__slider-paginations.slick-slider {
+    bottom: -80px;
+  }
 }
 @media (max-width: 540px) {
   .hero__title {
@@ -1946,7 +1962,6 @@ body {
   .hero__subtitle {
     font-size: 14px;
     font-style: normal;
-    font-weight: 600;
     line-height: 130%;
     max-width: 250px;
   }
@@ -2037,7 +2052,7 @@ body {
   }
   .benefits .swiper__item {
     border-radius: 15px;
-    height: 290px;
+    min-height: 340px;
   }
   .benefits .swiper__content {
     padding: 30px 40px 0 35px;
@@ -2179,12 +2194,22 @@ body {
   .footer__form-input {
     width: 280px;
     height: 60px;
+    font-size: 14px;
   }
   .footer__form-btn {
     width: 280px;
     height: 60px;
+    font-size: 19px;
+    padding: 2.5px 3px 2.5px 20px;
+    font-weight: 400;
   }
   .pay__inner {
     padding: 10px 0 0;
+  }
+  .conditions__column-name {
+    font-weight: 60;
+  }
+  .pay__slider-paginations.slick-slider {
+    bottom: -88px;
   }
 }

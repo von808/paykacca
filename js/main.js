@@ -4,7 +4,7 @@ $(function initSlider() {
     infinite: false,
     slidesToShow: 1,
     slidesToScroll: 1,
-    vertical: true,
+    fade: true,
     verticalSwiping: true,
     pagination: false,
     prevArrow: '<span class="circle-orange arrow-prev"><svg class="arrow arrow-up"><use xlink: href="#arrow"></use></svg></span >',
@@ -14,7 +14,6 @@ $(function initSlider() {
       {
         breakpoint: 1780,
         settings: {
-          vertical: false,
           verticalSwiping: false,
         }
       }
@@ -24,8 +23,8 @@ $(function initSlider() {
   $('.pay__slider-paginations').slick({
     infinite: false,
     slidesToShow: 3,
-    slidesToScroll: 3,
-    centeredMode: true,
+    slidesToScroll: 1,
+    centerMode: true,
     vertical: true,
     verticalSwiping: true,
     focusOnSelect: true,
@@ -56,8 +55,16 @@ var swiper = new Swiper(".mySwiper", {
       spaceBetween: 30
     },
     768: {
-      slidesPerView: 2,
+      slidesPerView: 1.5,
       spaceBetween: 30
+    },
+    991: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    1300: {
+      slidesPerView: 2.5,
+      spaceBetween: 20
     },
     1780: {
       slidesPerView: 3,
@@ -72,8 +79,12 @@ var swiper = new Swiper(".mySwiper2", {
   loop: true,
   centeredSlides: true,
   breakpoints: {
+    1920: {
+      slidesPerView: 4.5,
+      spaceBetween: 40
+    },
     1780: {
-      slidesPerView: 5,
+      slidesPerView: 4,
       spaceBetween: 40
     },
     1400: {
